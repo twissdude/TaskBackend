@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+}
+#task-form {
+    margin-bottom: 1rem;
+}
+#tasks-list div {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.task {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.task h3 {
+    margin: 0;
+}
+
+.delete-btn {
+    color: #fff;
+    background-color: red;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+.view {
+    display: none;
+}
+
+.view.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+#auth {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+}
